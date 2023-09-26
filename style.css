@@ -1,0 +1,190 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+}
+
+.arsha{
+    background-color:#052c65;
+}
+
+.row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+    font-weight: 600;
+}
+
+.logo:hover{
+    cursor: pointer;
+}
+
+.header1{
+    list-style: none;
+    display: flex;
+    justify-content:end;
+    align-items: center;
+    padding-top: 12px;
+}
+
+.header1 li{
+    padding-left: 30px;
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.header1 li:hover{
+    color:skyblue;
+    cursor: pointer;
+}
+
+.dropdown{
+    padding-bottom: 4px;
+}
+
+.option{
+    background-color:#052c65;
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    border: none;
+    outline: none;
+    text-align: left;
+}
+
+.option:hover{
+    color: skyblue;
+    cursor: pointer;
+}
+
+
+.header2 li{
+    padding-left: 0px;
+    color: white;
+    font-size: 18px;
+    font-weight: 450;
+    list-style: none;
+    
+}
+
+.header2 li:hover{
+    color: skyblue;
+    cursor: pointer;
+}
+
+.btn1{
+    border-radius: 60px;
+    width: 130px;
+    height: 40px;
+    font-weight: bolder;
+    border: 2px solid  rgb(81, 174, 211);
+    background-color:#052c65;
+    color: white;
+}
+
+.btn1:hover{
+    background-color: rgb(81, 174, 211);
+    cursor: pointer;
+}
+
+
+.img{
+    height: 100px;
+    width: 100px;
+}
+
+.heading1{
+    color:#fff;
+    font-family: "Open Sans", sans-serif;
+    font-weight:700;
+}
+
+.heading2{
+    color:#fff;
+    font-family: "Open Sans", sans-serif;
+    font-weight: bolder;
+}
+
+.paragraph{
+    font-family: "Open Sans", sans-serif;
+    color: #b4b0b0;
+    font-weight: 500;
+    font-size: 22px;
+}
+
+.btn2{
+    border-radius: 60px;
+    width: 145px;
+    height: 45px;
+    font-weight: 500;
+    background-color:rgb(60, 176, 223);
+    color: white;
+    border:none;
+}
+
+.btn2:hover{
+    background-color:rgb(18, 134, 180);
+}
+
+
+.video{
+    height: 20px;
+    width: 20px;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.video:hover{
+    cursor: pointer;
+}
+
+.fa-regular:hover{
+    color: rgb(18, 134, 180);
+}
+
+span:hover{
+    color: rgb(18, 134, 180);
+
+}
+
+.image{
+    position:relative;
+}
+
+img{
+    width: 540px;
+    height:430px;
+    position:absolute;
+    top: -230px;
+    right: 10px;
+    z-index:1;
+    animation: faisal 4s ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+@keyframes faisal{
+    0%{
+        top:-240px;
+    }
+    50%{
+        top: -210px;
+    }
+    100%{
+        top: -240px;
+    }
+}
+
+
+
+
